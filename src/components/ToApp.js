@@ -7,7 +7,7 @@ export default function ToApp() {
 
   useEffect(() => {
     axios
-    .get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
+    .get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2012-03-14`)
     .then(response => {
         // console.log(response);
         setNapi(response.data);
