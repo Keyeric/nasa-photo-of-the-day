@@ -5,7 +5,7 @@ import "./styling.css";
 
 function App() {
   return (
-    <div className = "AppDay2">
+    <div className = "App">
       <ToApp />
     </div>
   );
