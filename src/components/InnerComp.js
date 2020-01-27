@@ -1,7 +1,6 @@
 import React from "react";
 
-function InnerComp(){
-    return null;
-}
-
+const InnerComp = props => {
+  return ( null );
+};
 export default InnerComp;
