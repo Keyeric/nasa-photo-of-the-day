@@ -17,14 +17,14 @@ export default function ToApp() {
       });
   }, []);
   return (
-    <div>
+    <div className="MidPoint">
          <InnerComp 
           key={napi.url}
           title={napi.title}
           description={napi.explanation}
-          date={napi.date} 
-          img = {napi.hdurl}
+          date={napi.date}
         />
+        <img alt ="NASA API POTD Image" src={napi.hdurl} />
   </div>
   );
 }

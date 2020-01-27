@@ -2,9 +2,9 @@ import React from "react";
 
 const InnerComp = props => {
   return (
-    <div key={props.url}>
-      <p>Title: {props.title}</p>
-      <p>Date: {props.date}</p>
+    <div className ="InnerComponent" key={props.url}>
+      <h1> {props.title}</h1>
+      <h3>Date: {props.date}</h3>
       <p>Description: {props.description}</p>
       <img href = {props.img} />
     </div>
