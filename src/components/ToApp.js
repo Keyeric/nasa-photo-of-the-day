@@ -24,7 +24,7 @@ export default function ToApp() {
           description={napi.explanation}
           date={napi.date}
         />
-        <img alt ="NASA API POTD Image" src={napi.hdurl} />
+        <img alt ="NASA API POTD" src={napi.hdurl} />
   </div>
   );
 }

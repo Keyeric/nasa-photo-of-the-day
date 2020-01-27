@@ -6,7 +6,7 @@ const InnerComp = props => {
       <h1>{props.title}</h1>
       <h3>Date: {props.date}</h3>
       <p>Description: {props.description}</p>
-      <img href = {props.img} />
+      <img href = {props.img} alt ="" />
     </div>
   );
 };
